@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Психосоматика - База болезней и аффирмаций</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Психосоматика</h1>
+            <p>База данных болезней, их причин и лечебных аффирмаций</p>
+        </header>
+
+        <div class="search-section">
+            <input type="text" id="searchInput" placeholder="Поиск болезни...">
+            <button id="searchBtn">Найти</button>
+        </div>
+
+        <div class="stats">
+            <span id="totalCount">Всего записей: 389</span>
+            <span id="filteredCount"></span>
+        </div>
+
+        <div class="results" id="results">
+            <!-- Результаты поиска будут здесь -->
+        </div>
+
+        <div class="loading" id="loading" style="display: none;">
+            Загрузка...
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
